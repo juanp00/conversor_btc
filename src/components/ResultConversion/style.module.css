@@ -1,0 +1,13 @@
+.imgCrypto {
+    max-width: 30px;
+    max-height: 30px;
+}
+.wrapperConversion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.titleMobile {
+    text-align: left;
+}

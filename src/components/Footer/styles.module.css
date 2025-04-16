@@ -1,0 +1,22 @@
+/* src/components/Footer.module.css */
+
+.footer {
+    background-color: #f0f0f0; /* Cor cinza clarinha de fundo */
+    padding: 10px 20px;
+  }
+  
+  .footerLeft,
+  .footerRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerRight a {
+    color: #000; /* Cor do link */
+    text-decoration: none;
+  }
+  
+  .footerRight a:hover {
+    text-decoration: underline;
+  }
+  

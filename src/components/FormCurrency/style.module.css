@@ -1,0 +1,52 @@
+
+.wrapperForm {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.wrapperSelect {
+    padding: 0 15px;
+    border: 1px solid #6c6c6b;
+    border-radius: 8px;
+    cursor: pointer !important;
+}
+.input {
+    padding: 20px 15px;
+    border: 1px solid #6c6c6b;
+    border-radius: 8px;
+    outline: none;
+}
+.select {
+    border: none;
+    padding: 20px 10px;   
+    outline: none;
+    cursor: pointer !important;
+    max-width: 230px;
+    font-weight: 600;
+    text-transform: uppercase;
+    flex: 1;
+}
+.select option {
+    background-color: #fff; /* Cor de fundo dos itens */
+    color: #333; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno para os itens */
+    font-size: 16px; /* Tamanho da fonte */
+    border-bottom: 1px solid #ddd; /* Linha entre os itens */
+    border: none;
+}
+
+@media (max-width: 500px) {
+    
+    .select {
+        width: 100% !important;
+        max-width: 100vw !important;
+        flex: 1;
+    }
+    
+}

@@ -1,0 +1,13 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+::selection {
+    background: #111110;
+    color: #fff;
+}
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
