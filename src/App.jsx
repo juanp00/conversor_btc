@@ -28,7 +28,7 @@ export default function App() {
     
       <Container id='converter'>
         <Row className='text-center pt-5 pb-5'>
-            <Col className='d-flex gap-2 justify-content-center'>
+            <Col className='d-flex gap-2 justify-content-center align-items-center'>
               <img className={style.imgTitle} src={imgBtc} alt="" />
               <h1>Converta Criptmoedas</h1>
             </Col>
@@ -41,11 +41,12 @@ export default function App() {
 
           {/* Converter para */}
           <FormCurrencyTo moedato={moedaConversao} fiatList={fiatList} setMoedaConversao={setMoedaConversao} amountTo={amountTo} setAmountTo={setAmountTo}/>
-
+          
+          {/* Resultado da conversão */}  
           <ResultConversion conversionResult={conversionResult} imgCrypto={imgCrypto}/>
         </Row>
 
-        <PriceChart moeda={moeda}/>
+        <PriceChart id="grafico" moeda={moeda}/>
       </Container>
 
       <Footer />

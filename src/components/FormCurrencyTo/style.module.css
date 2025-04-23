@@ -3,7 +3,7 @@
     display: flex;
     flex: 1;
     width: 100%;
-    gap: 10px;
+    gap: 5px;
     font-size: 22px;
     font-weight: 600;
     flex-wrap: wrap;
@@ -49,4 +49,18 @@
         width: 100% !important;
         max-width: 100% !important;
     }
+}
+@media (max-width: 768px) {
+    .wrapperForm {
+        flex-direction: column;
+    }
+    .select {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 1;
+    }
+    .input {
+        width: 100%;
+    }
+    
 }

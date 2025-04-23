@@ -4,6 +4,7 @@
     border-radius: 30px;
     margin: 20px 0;
     background: #f7f8f9;
+    
 }
 input, select {
     background: #f7f8f9;
@@ -16,5 +17,6 @@ input, select {
 @media (max-width: 500px) {
     .formCurrency {
         padding: 30px 15px;
+        flex-direction: column;
     }
 }

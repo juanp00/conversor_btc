@@ -5,9 +5,12 @@
     background: #111110;
     color: #fff;
 }
-h3 {
-    margin: 0;
+h1, h3 {
+    margin: 0 !important;
 }
 p {
     margin: 0;
+}
+select, span {
+    color: #000 !important;
 }

@@ -14,14 +14,13 @@ export default function Header() {
                 >
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title id="offcanvasNavbarLabel">
-                            Offcanvas
+                            Conversor de criptomoedas
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#converter">Converter</Nav.Link>
-                            <Nav.Link href="#grafico">Gráficos</Nav.Link>
-                            
+                            <Nav.Link as="a" href="#converter">Converter</Nav.Link>
+                            <Nav.Link as="a" href="#grafico">Gráficos</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
