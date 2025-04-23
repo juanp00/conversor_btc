@@ -117,7 +117,7 @@ const GraficoPrecos = ({ moeda = 'bitcoin' }) => {
     <Row className='pt-5 pb-5' id='grafico'>
         <Col>
             <h3>{moeda.charAt(0).toUpperCase() + moeda.slice(1)} - Preço no Mercado</h3>
-            <div className='d-flex gap-2 flex-column flex-sm-row pb-5'>
+            <div className='d-flex gap-2 flex-column flex-sm-row pb-5 mt-3'>
                 <Button onClick={() => handleTimeRangeChange('week')} variant="outline-dark">Última Semana</Button>
                 <Button onClick={() => handleTimeRangeChange('month')} variant="outline-dark">Último Mês</Button>
                 <Button onClick={() => handleTimeRangeChange('year')} variant="outline-dark">Último Ano</Button>

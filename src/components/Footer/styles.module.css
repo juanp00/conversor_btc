@@ -3,20 +3,27 @@
 .footer {
     background-color: #f0f0f0; /* Cor cinza clarinha de fundo */
     padding: 10px 20px;
+}
+
+.footerLeft,
+.footerRight {
+  display: flex;
+  align-items: center;
+}
+
+.footerRight a {
+  color: #000; /* Cor do link */
+  text-decoration: none;
+}
+
+.footerRight a:hover {
+  text-decoration: underline;
+}
+@media(max-width: 500px) {
+  #wrapperFooter {
+    justify-content: center !important;
   }
-  
-  .footerLeft,
-  .footerRight {
-    display: flex;
-    align-items: center;
+  #wrapperFooterCreated {
+    justify-content: center !important;
   }
-  
-  .footerRight a {
-    color: #000; /* Cor do link */
-    text-decoration: none;
-  }
-  
-  .footerRight a:hover {
-    text-decoration: underline;
-  }
-  
+}
